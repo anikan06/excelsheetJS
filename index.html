@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--our CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--BootstrapJs-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"/>
+    <!--Font-awsome JS-->
+    <script defer;
+            src = "https://use.fontawesome.com/releases/v5.0.8/js/solid.js";
+            integrity = "sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l";
+            crossorigin = "anonymous" ></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"
+            integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Bootstrap
+        </a>
+    </nav>
+
+    <div class="container">
+        <!--<div class="row mx-auto">
+            <a class="btn btn-info" id="addrw">Add Row</a>
+            <a class="btn btn-info" id="addcl">Add Colmn</a>
+            <div class="table" id="myTable">
+                <table class="table table-bordered" id="tableEntire">
+                    <tbody id="tbdAd">
+                        <tr class="tableRow">
+                            <td><input class="form-control form-control-sm" id="in-'+idInp+'"></td>
+                            <td><input class="form-control form-control-sm" id="in-'+idInp+'"></td>
+                            <td><input class="form-control form-control-sm" id="in-'+idInp+'"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>-->
+
+        <div class="row mx-auto">
+            <a class="btn btn-info" id="addRw">Add Row</a>
+            <a class="btn btn-info" id="addCol">Add Column</a>
+            <a class="btn btn-info" id="delRow">Delete Row</a>
+            <a class="btn btn-info" id="delCell">Delete Column</a>
+            <a class="btn btn-info" id="sort">Sort</a>
+        </div>
+        <div class="row mx-auto">
+            <table class="table table-hover" id="tableMain">
+                <thead>
+                <tr>
+                    <th scope="col" id="hd1">#</th>
+                    <th scope="col" id="hd2">First</th>
+                    <th scope="col" id="hd3">Last</th>
+                    <th scope="col" id="hd4">Handle</th>
+                </tr>
+                </thead>
+                <tbody id="tableEntire">
+                <tr>
+                    <td><input class="form-control form-control-sm"></td>
+                    <td><input class="form-control form-control-sm"></td>
+                    <td><input class="form-control form-control-sm"></td>
+                    <td><input class="form-control form-control-sm"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
